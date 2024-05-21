@@ -54,4 +54,9 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/timelocked-wallet.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: smart-claimant
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/smart-claimant.clar
+            clarity-version: 2
       epoch: "2.5"
